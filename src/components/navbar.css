@@ -1,0 +1,37 @@
+
+  #navbar .nav-link {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: rgb(82, 65, 136);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .5px;
+    transition: all .25s ease;
+    padding-left: 15px;
+
+  }
+  
+  #navbar .nav-link:hover, #navbar .nav-link:focus {
+    color: #f75757;
+  }
+  
+ #dropdown-item:hover {
+    background: light;
+    color: #f75757;
+  }
+
+
+  .navbar-brand {
+    color: rgb(121, 90, 224);
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .navbar-brand:hover {
+    color: #f75757;
+  }
+  
+  
+  .navbar-brand span {
+    color: #f75757;
+  }

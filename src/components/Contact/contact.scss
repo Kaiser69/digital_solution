@@ -1,0 +1,144 @@
+/*** color and default size**/
+
+   .contact{
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    align-content: center;
+}
+
+.grid{
+    display: grid;
+    align-content: center;
+}
+
+input, textarea{
+    font-size: 100%;
+}
+
+.section{
+    padding: 4rem 0 2rem;
+}
+
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+    .contactContainer{
+        width: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+        .socialContacts{
+            justify-content: center;
+
+              h3{
+                color: rgb(150, 162, 188);
+                padding: 1rem 0;
+                text-align: center;
+              }
+
+        
+             .cards{
+                justify-content: center;
+                gap: 1rem;
+             
+             }
+        }
+
+        .form{
+            width: 100%;
+            justify-content: center;
+            margin: auto;
+
+            h3{
+                text-align: center;
+                color: rgb(150, 162, 188);
+            }
+
+            form{
+                width: 100%;
+                text-align: center;
+
+                input, textarea{
+                    height: 1rem;
+                    width: 90%;
+                    padding: 1.5rem .5rem;
+                    border-radius: 6px;
+                    background: none;
+                    border: 1.2px solid rgb(150, 162, 188);
+                    margin: .5rem 0;
+                    outline: none;
+                    color: var(--textColor);
+                    font-weight: 600;
+
+                    &::placeholder{
+                        color: rgb(150, 162, 188);
+                        opacity: .5;
+                    }
+                }
+
+                textarea{
+                    height: 150px;
+                }
+
+                .formBtn{
+                    font-size: 18px;
+                    font-weight: 600;
+                    background:  #7b56d9;
+                    color: #fff;
+                    font-weight: 600;
+                    cursor: pointer;
+
+                    &:hover{
+                        background: none;
+                        color: #f75757;
+                        border: 1.1px solid #7b56d9;;
+                    }
+                }
+            }
+        }
+    }
+   }
+
+
+   @media screen and (min-width: 640px) {
+
+    .cards{
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+   }
+
+
+
+
+   @media screen and (min-width: 960px) {
+    .contact{
+           .contactContainer{
+            grid-template-columns: repeat(2, 1fr);
+            align-items: flex-start !important;
+           }
+    }
+    
+   }
+
+   @media screen and (min-width: 1240px) {
+    .contact{
+          padding-left: 2rem;
+          padding-right: 2rem;
+    }
+    
+    
+   }
+   

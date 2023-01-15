@@ -1,0 +1,13 @@
+
+.icon-bell:hover,
+.icon-bell:focus {
+  filter: invert(50%) sepia(88%) saturate(946%) hue-rotate(158deg) brightness(100%) contrast(21%);
+}
+
+span:hover {
+  color: #7b56d9;
+}
+
+span:hover .fill {
+  fill: currentColor;
+}

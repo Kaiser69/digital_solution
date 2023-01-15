@@ -1,0 +1,42 @@
+
+.bgPhoto {
+    background: -webkit-linear-gradient(rgba(67, 47, 96, 0.8), rgba(68, 62, 64, 0.8)), 
+    url("../images/home-1.jpg") no-repeat ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 10% 0%;
+    padding: 200px 0 280px 0;
+    position: relative;
+  }
+  
+  .intro-item i {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+
+.bgPhoto .block h1 {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+ 
+  
+  .intro-item i {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  
+  .color-one {
+    color: #f75757;
+  }
+  
+ .overImage:hover{
+
+  background: none;
+  outline: 1.1px solid #f75757;
+
+ }
